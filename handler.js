@@ -1,6 +1,7 @@
 'use strict';
 const moment = require('moment')
 module.exports.logger = async (event) => {
+  console.log('in handler')
   return {
     statusCode: 200,
     body: JSON.stringify(
